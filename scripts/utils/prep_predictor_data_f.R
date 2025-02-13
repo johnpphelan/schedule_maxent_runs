@@ -63,6 +63,7 @@ prep_predictor_data = function(proj_path,
   names(cmidata)<-renames
   
   # Elevation
+  
   elev = terra::rast(paste0(onedrive_path,"CNF/elevation_BC.tif"))
   
   names(elev) = "elev"
